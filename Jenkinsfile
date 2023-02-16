@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'make -f Makefile -f makefile1'
+                sh 'make -f /main/Makefile -f /main/makefile1'
                 echo 'Build Stage Successful'
             }
         }
