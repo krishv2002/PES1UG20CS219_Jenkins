@@ -1,4 +1,4 @@
-hello_exec: hello.cpp
+hello_exec: hello.cpp new_file.cpp
 	g++ hello.cpp -o hello_exec
-hello_exec1: new_file.cpp
 	g++ new_file.cpp -o hello_exec1
+
